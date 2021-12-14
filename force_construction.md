@@ -14,3 +14,10 @@ Every unit must have a **Crusade Card**. This is where victory and growth of the
     *  Warlord Traits and Relics can only be chosen with the expenditure of Requisition Points. Any other item that grants Warlord Traits and Relics at unit selection are not used.
     * Named Characters have their Warlord Trait and Relics but do not gain experience.
 1. Yor force need not be battle-forged
+
+# Force Selection
+1. Take all your **Order of Battle**s that are present at a map location
+1. Prepare a combined **Order of Battle** to present to your opponent.
+    * An individual **Order of Battle** may have more than 50 pl of units if Requisition points have been spent to expand your Supply Limit
+1. Select a force that adds up to 50 pl x **Order of Battle**s present at map location
+    * You may have to adjust you final force if you are attacking a fortification
