@@ -23,4 +23,14 @@ The map will be a 16 x 16 hexagonal grid. As we explore the map we will determin
 |Command Pavilion|3|2|Allows for the addition of 2 HQ units to an **Order of Battle**|
 
 # Terraforming
-Terraforming is the act of changing one terrain type into another. When an **Order of Battle** performs the terraforming action you have a chance to change the location one step (see the [Topography](#Topography) table above)
+Terraforming is the act of changing one terrain type into another. When an **Order of Battle** performs the terraforming action you have a chance to change the location one step (see the [Topography](#Topography) table above) in the direction of your choice.
+
+1: Moves up to two steps to Dessert or Volcano which ever is closer **Order of Battle**'s remaining actions are lost.
+
+2: Failure nothing happens **Order of Battle**'s remaining actions are lost.
+
+3: Failure nothing happens.
+
+4-5: Moves one step in direction of choice.
+
+6: Moves up to two steps in direction of choice.
