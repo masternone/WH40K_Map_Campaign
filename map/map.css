@@ -1,0 +1,38 @@
+.container {
+    --s: 3in; /* size  */
+    --m: 4px; /* margin */
+    --f: calc(1.732 * var(--s) + 4 * var(--m) - 1px);
+
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(16.5 * var(--s) + 2 * 16.5 * var(--m));
+
+}
+
+.row {
+    font-size: 0; /*disable white space between inline block element */
+}
+
+.row .hexagon {
+    width: var(--s);
+    margin: var(--m);
+    height: calc(var(--s) * 1.1547);
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1in;
+    background: rgba(0, 0, 0, .05);
+    clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+    margin-bottom: calc(var(--m) - var(--s) * 0.2885);
+}
+
+.row:nth-child(even)::before {
+    content: "";
+    width: calc(var(--s) / 2 + var(--m));
+    float: left;
+    height: 120%;
+    shape-outside: repeating-linear-gradient(
+            #000 0 calc(var(--f) - 2px),
+            #000 0 var(--f));
+}

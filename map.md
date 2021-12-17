@@ -1,9 +1,9 @@
 # The Map 
-The map will be a 16 x 16 hexagonal grid. As we explore the map we will determine the topography of the map. Each hex will have a series of benefits.
+The [map](map/readme.md) will be a 16 x 16 hexagonal grid. As we explore the map we will determine the topography of the map. Each hex will have a series of benefits.
 
 # Topography
 |Type|Movement|Resources|Defence|Enhancements|
-|--|--:|--:|--:|--:|
+|---|---:|---:|---:|---:|
 |Ocean|3|3|0|3|
 |Desert|2|0|0|3 [^1] |
 |Plain|1|1|0|3|
@@ -16,9 +16,9 @@ The map will be a 16 x 16 hexagonal grid. As we explore the map we will determin
 
 # Enhancements
 |Type|Construction Time|Cost|Benefit|
-|--|--:|--:|--|
-|Fortification|1|1|Increase location defence by 1|
-|Cultivation|1|1|Increase location resources by 1|
+|---|---:|---:|---|
+|Fortification|1|1|Increase location defence by 1 to a max of 4|
+|Cultivation|1|1|Increase location resources by 1 to a max of 4|
 |Factory|2|2| Allows for the creation of an additional **Order of Battle**|
 |Command Pavilion|3|2|Allows for the addition of 2 HQ units to an **Order of Battle**|
 

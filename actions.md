@@ -1,0 +1,11 @@
+# Actions
+
+| Name      | Cost | Benefit                                                                                                                                                                                                 |
+|-----------|------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Move      | 1    | Accumulate an additional movement count. As soon as you have meet or exceeded the movement of your location you can place your **Order of Battle** on an adjacent location and encounter what is there. |
+| Build     | 1    | Accumulate an additional build count for a specific [enhancement](map.md#Enhancements). Once you have meet the requirement we will add the enhancement to the map                                       |
+| Terraform | 1    | Accumulate an additional terraform count. As soon as you have meet or exceeded the resource of the location you can roll to change the location.                                                        |
+| Battle    | 0    | When you find your **Order of Battle**(s) in a location with another faction's **Order of Battle** you may fight to drive them back. See the [Battle](battle.md)                                        |
+| Garrison  | 0    | Use the fortification on a location                                                                                                                                                                     |
+
+Each **Order of Battle** has two actions for each biweekly period
