@@ -3,3 +3,5 @@ All battles are fought using the Crusade missions in the any of the published 9t
 If you find yourself with more than one **Order of Battle** at a location preparing for battle you may make a force that combines all units from all of these **Order of Battle**s.
 
 If the controlling player's **Order of Battle** is garrisoned at a location you must reduce your force by 10 Power level fore each level of fortification present.
+
+If the attacker is the winner the defender may choose to raise any or all Enhancements at the location. If the defender is the winner the attacker may raise one Enhancement.

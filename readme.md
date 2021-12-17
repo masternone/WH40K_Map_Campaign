@@ -5,4 +5,5 @@
 2. [Initial Force Construction](force_construction.md)
 3. [Map](map.md)
 4. [Actions](actions.md)
-5. Resources 
+5. [Battle](battle.md)
+6. Resources 
