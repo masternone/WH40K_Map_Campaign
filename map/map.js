@@ -18,6 +18,34 @@ const build = () => {
     }
   }
 };
+
+const applyClass = (list, className) => {
+  list.forEach((coordinates) => {
+    const elements = document.getElementsByClassName((`hexagon--${coordinates[0]}-${coordinates[1]}`));
+    console.log({elements})
+    elements[0].classList.add(className);
+  })
+}
+
+const topography = () => {
+  const volcanos = [];
+  const mountains = [];
+  const hills = []
+  const forests = [];
+  const plains = [];
+  const desserts = [];
+  const oceans = [];
+
+  applyClass(volcanos, 'volcano');
+  applyClass(mountains, 'mountain');
+  applyClass(hills, 'hill');
+  applyClass(forests, 'forest');
+  applyClass(plains, 'plain');
+  applyClass(desserts, 'dessert');
+  applyClass(oceans, 'ocean');
+}
+
 setTimeout(() => {
   build();
+  topography();
 }, 1000);
