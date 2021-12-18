@@ -34,3 +34,24 @@ Terraforming is the act of changing one terrain type into another. When an **Ord
 4-5: Moves one step in direction of choice.
 
 6: Moves up to two steps in direction of choice.
+
+# Landing Location
+Upon landing on this planet choose a location that is unexplored and roll on to determine the topography.
+
+Count out the typography of the adjacent tiles and assign the face of a D6 if not all face are assigned this way continue up the table from the highest and looping around if necessary.
+
+For example:
+* If the tile has no explored adjacent locations the roll would be
+  1. Mountain
+  2. Hill
+  3. Forest
+  4. Plain
+  5. Dessert
+  6. Ocean
+* If there are two mountain and one forest the roll would be
+  1. Mountain
+  2. Mountain
+  3. Forest
+  4. Plain
+  5. Dessert
+  6. Ocean
