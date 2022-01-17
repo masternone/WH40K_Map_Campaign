@@ -10,7 +10,7 @@
    * Proxies are ok with in reason and with prior approval
 
 ## What we are doing
-A new planet has been discovered, and the faction of the 40K universe rush to explore this planet.
+A new planet has been discovered, and the factions of the 40K universe rush to explore this planet.
 Week one each player will select a landing zone and explore this zone and have one [action](actions.md) remaining.
 When two factions meet at the same location a [battle](battle.md) will occur.
 
