@@ -4,6 +4,7 @@
   "description": "Build out a hex map",
   "main": "map/map.html",
   "scripts": {
+    "prettier": "npx prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
