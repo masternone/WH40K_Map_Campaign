@@ -1,0 +1,27 @@
+{
+  "name": "map_campaign",
+  "version": "0.0.1",
+  "description": "Build out a hex map",
+  "main": "map/map.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/masternone/WH40K_Map_Campaign.git"
+  },
+  "keywords": [
+    "Warhammer",
+    "Crusade",
+    "Map"
+  ],
+  "author": "Edward Grant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masternone/WH40K_Map_Campaign/issues"
+  },
+  "homepage": "https://github.com/masternone/WH40K_Map_Campaign#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
