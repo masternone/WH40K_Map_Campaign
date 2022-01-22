@@ -23,6 +23,7 @@ const applyClass = (list, className) => {
     const elements = document.getElementsByClassName(
       `hexagon--${coordinates[0]}-${coordinates[1]}`
     );
+    console.log({ list, className, elements });
     elements[0].classList.add(className);
     if (coordinates.length === 3) {
       elements[0].setAttribute('data-order-of-battle', coordinates[2]);
@@ -36,7 +37,7 @@ const topography = () => {
     ['f', 0],
     ['f', 'f'],
   ];
-  const mountains = [];
+  const mountains = [[9, 'f']];
   const hills = [[1, 2]];
   const forests = [];
   const plains = [[1, 1]];
@@ -58,6 +59,11 @@ const ownership = () => {
   const edwardGrantOrderOfBattle = [[1, 2, 'Tzican Infiltrators -- Garrison']];
   applyClass(edwardGrant, 'edward-grant');
   applyClass(edwardGrantOrderOfBattle, 'order-of-battle');
+
+  const joelDavid = [[9, 'f']];
+  const joelDavidOrderOfBattle = [[9, 'f', '-- build fortification (1/2)']];
+  applyClass(joelDavid, 'joel-david');
+  applyClass(joelDavidOrderOfBattle, 'order-of-battle');
 };
 setTimeout(() => {
   build();
