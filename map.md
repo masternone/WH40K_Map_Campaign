@@ -52,12 +52,12 @@ For example:
   2. Hill
   3. Forest
   4. Plain
-  5. Dessert
+  5. Desert
   6. Ocean
 - If there are two mountain and one forest the roll would be
   1. Mountain
   2. Mountain
   3. Forest
   4. Plain
-  5. Dessert
+  5. Desert
   6. Ocean

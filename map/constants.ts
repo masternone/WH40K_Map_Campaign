@@ -1,14 +1,5 @@
-import { Typography } from './definitions';
+import { Enhancement, Typography } from './definitions';
 
-export enum TYPOGRAPHY_ENUM {
-  OCEAN,
-  DESERT,
-  PLAIN,
-  FOREST,
-  HILL,
-  MOUNTAIN,
-  VOLCANO,
-}
 export const OCEAN: Typography = {
   type: 'ocean',
   movement: 3,
@@ -62,4 +53,21 @@ export const VOLCANO: Typography = {
   resources: 3,
   defence: 3,
   enhancements: 0,
+};
+
+export const FORTIFICATION: Enhancement = {
+  type: 'fortification',
+  cost: 1,
+};
+export const CULTIVATION: Enhancement = {
+  type: 'cultivation',
+  cost: 1,
+};
+export const FACTORY: Enhancement = {
+  type: 'factory',
+  cost: 2,
+};
+export const COMMAND_PAVILION: Enhancement = {
+  type: 'command-pavilion',
+  cost: 3,
 };

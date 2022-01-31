@@ -76,7 +76,7 @@
     background-position: 98% 4%;
 }
 
-.row .hexagon.dessert::before {
+.row .hexagon.desert::before {
     display: block;
     background-position: 76.5% 4%;
 }
@@ -107,4 +107,21 @@
 
 .row .hexagon.jayson-rittersdorf {
     background-color: #848a66;
+}
+
+.row .hexagon.rob-mountney {
+    background-color: #e3dac9;
+}
+
+.row .hexagon.jon-arford {
+    background-color: #a9203e;
+}
+
+table {
+    font-size: 1in;
+    margin-top: 1in;
+}
+
+th, td {
+    padding: .5in 1in;
 }

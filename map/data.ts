@@ -9,10 +9,17 @@ export const topographyData: HexData = {
   ],
   mountain: [[9, 'f']],
   hill: [[1, 2]],
-  forest: [],
+  forest: [['e', 'f']],
   plain: [[1, 1]],
-  desserts: [],
+  desert: [
+    [7, 7],
+    [8, 0],
+  ],
   oceans: [],
+};
+
+export const fortification: HexData = {
+  'rob-mountney': [['e', 'f']],
 };
 
 export const ownership: HexData = {
@@ -20,11 +27,15 @@ export const ownership: HexData = {
     [1, 1],
     [1, 2],
   ],
-  'jayson-rittersdorf': [],
+  'jayson-rittersdorf': [[8, 0]],
   'joel-david': [[9, 'f']],
+  'rob-mountney': [['e', 'f']],
+  'jon-arford': [[7, 7]],
 };
 export const orderOfBattles: HexData = {
   'edward-grant': [[1, 2, 'Tzican Infiltrators -- Garrison']],
   'joel-david': [[9, 'f', '-- build fortification (1/2)']],
-  'jayson-rittersdorf': [],
+  'jayson-rittersdorf': [[8, 0, ' -- move (1/2)']],
+  'rob-mountney': [['e', 'f', ' -- Garrison']],
+  'jon-arford': [[7, 7, ' -- move (1/2)']],
 };
