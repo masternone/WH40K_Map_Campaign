@@ -33,7 +33,7 @@ npm i
 Build the latest version with any of your changes
 
 ```shell
-npx tsc
+npm run build
 ```
 
 Watch changes

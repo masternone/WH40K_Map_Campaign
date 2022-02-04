@@ -5,6 +5,7 @@
   "main": "map/map.html",
   "scripts": {
     "build": "npx webpack --mode=development",
+    "build:watch": "npx webpack --mode=development --watch",
     "build:production": "npx webpack --mode=production",
     "lint": "npx eslint",
     "lint-fix": "npx eslint --fix",

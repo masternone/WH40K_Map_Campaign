@@ -18,8 +18,9 @@ export const topographyData: HexData = {
   oceans: [],
 };
 
-export const fortification: HexData = {
-  'rob-mountney': [['e', 'f']],
+export const enhancements: HexData = {
+  factory: [],
+  fortification: [['e', 'f']],
 };
 
 export const ownership: HexData = {
@@ -34,7 +35,7 @@ export const ownership: HexData = {
 };
 export const orderOfBattles: HexData = {
   'edward-grant': [[1, 2, 'Tzican Infiltrators -- Garrison']],
-  'joel-david': [[9, 'f', '-- build fortification (1/2)']],
+  'joel-david': [[9, 'f', '-- build factory (1/2)']],
   'jayson-rittersdorf': [[8, 0, ' -- move (1/2)']],
   'rob-mountney': [['e', 'f', ' -- Garrison']],
   'jon-arford': [[7, 7, ' -- move (1/2)']],
