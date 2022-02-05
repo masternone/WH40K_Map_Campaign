@@ -132,6 +132,40 @@
     background-color: #ee3823;
 }
 
+.row .hexagon.enhancements > div {
+    background-image: url(/background/image_set_2.gif);
+    background-repeat: no-repeat;
+    background-size: 1800px 1819px;
+    position: absolute;
+    width: 72px;
+    height: 64px;
+}
+
+.row .hexagon.enhancements .enhancements {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.row .hexagon.enhancements .enhancements + .enhancements {
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -115%);
+}
+
+.row .hexagon.enhancements .enhancements + .enhancements + .enhancements {
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%, -50%);
+}
+
+.row .hexagon.enhancements > .factory {
+    background-position: 58% 61%;
+}
+.row .hexagon.enhancements > .fortification {
+    background-position: 58% 68.1%;
+}
+
 table {
     font-size: 1in;
     margin-top: 1in;

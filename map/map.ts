@@ -64,8 +64,9 @@ const applyOwnership = (): void => {
 const applyEnhancements = (): void => {
   const buildings: string[] = Object.keys(enhancements);
   buildings.forEach((building) => {
+    applyClass(enhancements[building], 'enhancements');
     applyClass(enhancements[building], building);
-    applyEnhancement(enhancements[building], building);
+    applyEnhancement(enhancements[building], `enhancements ${building}`);
   });
 };
 setTimeout(() => {
