@@ -26,6 +26,7 @@ http-server . -c-1
 # Edit the map
 
 You will need to install the dependencies
+
 ```shell
 npm i
 ```

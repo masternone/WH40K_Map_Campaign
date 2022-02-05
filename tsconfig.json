@@ -14,12 +14,8 @@
     "allowJs": true,
     "moduleResolution": "Node"
   },
-  "include": [
-    "map/*.ts"
-  ],
+  "include": ["map/*.ts"],
   // which files to compile
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
   // which files to skip
 }
