@@ -122,6 +122,16 @@
     background-color: #a9203e;
 }
 
+.row .hexagon.jaleh-noah,
+.jaleh-noah {
+    background-color: #4166f5;
+}
+
+.row .hexagon.shad-feenstra,
+.shad-feenstra {
+    background-color: #ee3823;
+}
+
 table {
     font-size: 1in;
     margin-top: 1in;
