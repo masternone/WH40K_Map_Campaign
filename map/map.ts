@@ -5,19 +5,6 @@ import {
   ownership,
   topographyData,
 } from './data';
-import {
-  COMMAND_PAVILION,
-  CULTIVATION,
-  DESERT,
-  FACTORY,
-  FOREST,
-  FORTIFICATION,
-  HILL,
-  MOUNTAIN,
-  OCEAN,
-  PLAIN,
-  VOLCANO,
-} from './constants';
 import { analyseMap } from './analyseMap';
 
 const build = (): void => {
@@ -51,6 +38,16 @@ const applyClass = (list: Hex[], className: string): void => {
     }
   });
 };
+const applyEnhancement = (list: Hex[], className: string): void => {
+  list.forEach((coordinates: Hex) => {
+    const elements: HTMLCollectionOf<Element> = document.getElementsByClassName(
+      `hexagon--${coordinates[0]}-${coordinates[1]}`
+    );
+    const enhancement = document.createElement('div');
+    enhancement.setAttribute('class', className);
+    elements[0].append(enhancement);
+  });
+};
 const applyTopography = (): void => {
   const locations: string[] = Object.keys(topographyData);
   locations.forEach((location) => {
@@ -68,6 +65,7 @@ const applyEnhancements = (): void => {
   const buildings: string[] = Object.keys(enhancements);
   buildings.forEach((building) => {
     applyClass(enhancements[building], building);
+    applyEnhancement(enhancements[building], building);
   });
 };
 setTimeout(() => {
