@@ -97,6 +97,11 @@
   font-size: 20px;
 }
 
+.row .hexagon.dewayne-bailiff,
+.dewayne-bailiff {
+  background-color: #bbbb7f;
+}
+
 .row .hexagon.edward-grant,
 .edward-grant {
   background-color: #18abcc;
