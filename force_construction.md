@@ -16,7 +16,7 @@ Every unit must have a **Crusade Card**. This is where victory and growth of the
 1. Only two HQ units can be chosen
    - Warlord Traits and Relics can only be chosen with the expenditure of Requisition Points. Any other item that grants Warlord Traits and Relics at unit selection are not used.
    - Named Characters have their Warlord Trait and Relics but do not gain experience.
-1. Yor force need not be battle-forged
+1. Your force need not be battle-forged
 
 # Force Selection
 
