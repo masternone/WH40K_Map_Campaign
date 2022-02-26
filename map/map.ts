@@ -6,6 +6,7 @@ import {
   topographyData,
 } from './data';
 import { analyseMap } from './analyseMap';
+import { TYPOGRAPHY_ARRAY } from './constants';
 
 const build = (): void => {
   const size = 16;
@@ -38,7 +39,7 @@ const applyClass = (list: Hex[], className: string): void => {
     }
   });
 };
-const applyEnhancement = (list: Hex[], className: string): void => {
+const applyElement = (list: Hex[], className: string): void => {
   list.forEach((coordinates: Hex) => {
     const elements: HTMLCollectionOf<Element> = document.getElementsByClassName(
       `hexagon--${coordinates[0]}-${coordinates[1]}`
@@ -52,6 +53,10 @@ const applyTopography = (): void => {
   const locations: string[] = Object.keys(topographyData);
   locations.forEach((location) => {
     applyClass(topographyData[location], location);
+    applyClass(topographyData[location], 'topography');
+    for (let i = 0; i < 4 - TYPOGRAPHY_ARRAY[location].enhancements; i++) {
+      applyElement(topographyData[location], `topography ${location}`);
+    }
   });
 };
 const applyOwnership = (): void => {
@@ -66,7 +71,7 @@ const applyEnhancements = (): void => {
   buildings.forEach((building) => {
     applyClass(enhancements[building], 'enhancements');
     applyClass(enhancements[building], building);
-    applyEnhancement(enhancements[building], `enhancements ${building}`);
+    applyElement(enhancements[building], `enhancements ${building}`);
   });
 };
 setTimeout(() => {

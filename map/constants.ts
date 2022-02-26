@@ -55,6 +55,16 @@ export const VOLCANO: Typography = {
   enhancements: 0,
 };
 
+export const TYPOGRAPHY_ARRAY: { [name: string]: Typography } = {
+  ocean: OCEAN,
+  desert: DESERT,
+  plain: PLAIN,
+  forest: FOREST,
+  hill: HILL,
+  mountain: MOUNTAIN,
+  volcano: VOLCANO,
+};
+
 export const FORTIFICATION: Enhancement = {
   type: 'fortification',
   cost: 1,
