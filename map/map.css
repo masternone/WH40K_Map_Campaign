@@ -83,6 +83,11 @@
     background-color: #4166f5;
 }
 
+.row .hexagon.nathaniel-palmer,
+.nathaniel-palmer {
+    background-color: #F2E34C;
+}
+
 .row .hexagon.shad-feenstra,
 .shad-feenstra {
     background-color: #ee3823;
@@ -184,6 +189,12 @@
     background-position: 22% 93%;
 }
 
+.row .hexagon.enhancements > .cultivation {
+    background-position: 82.2% 96.4%;
+}
+.row .hexagon.enhancements > .command-pavilion {
+    background-position: 82.2% 75.1%;
+}
 .row .hexagon.enhancements > .factory {
     background-position: 58% 61%;
 }

@@ -1,5 +1,12 @@
 import { Enhancement, Typography } from './definitions';
 
+export const a = 'a';
+export const b = 'b';
+export const c = 'c';
+export const d = 'd';
+export const e = 'e';
+export const f = 'f';
+
 export const OCEAN: Typography = {
   type: 'ocean',
   movement: 3,
@@ -71,7 +78,7 @@ export const FORTIFICATION: Enhancement = {
 };
 export const CULTIVATION: Enhancement = {
   type: 'cultivation',
-  cost: 1,
+  cost: -1,
 };
 export const FACTORY: Enhancement = {
   type: 'factory',

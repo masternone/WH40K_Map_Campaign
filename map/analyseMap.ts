@@ -81,7 +81,8 @@ export const analyseMap = (): void => {
             rowTotal -= FACTORY.cost;
             break;
           case 'cultivation':
-            rowResourcesSpent += CULTIVATION.cost;
+            rowResources -= CULTIVATION.cost;
+            rowResourcesSpent += 0;
             rowTotal -= CULTIVATION.cost;
             break;
           case 'fortification':
