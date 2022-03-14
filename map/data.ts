@@ -156,7 +156,7 @@ export const orderOfBattles: HexData = {
     [3, f, 'War band Two -- move (1/3)'],
   ],
   'jayson-rittersdorf': [
-    [9, 1, ' Plague Company One -- Garrison'],
+    [9, 1, 'Porphyria -- Garrison'],
     [a, 1, 'Alkaptonuria -- Garrison'],
   ],
   'rob-mountney': [
