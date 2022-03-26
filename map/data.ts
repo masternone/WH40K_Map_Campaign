@@ -12,6 +12,7 @@ export const topographyData: HexData = {
     [9, f],
     [3, 2],
     [3, f],
+    [c, 4],
     [e, 0],
   ],
   hill: [
@@ -65,6 +66,7 @@ export const topographyData: HexData = {
 export const enhancements: HexData = {
   cultivation: [
     [9, 1],
+    [c, 4],
     [e, 1],
   ],
   'command-pavilion': [
@@ -152,6 +154,7 @@ export const ownership: HexData = {
     [d, d],
     [d, e],
   ],
+  'tom-galbreath': [[c, 4]],
 };
 export const orderOfBattles: HexData = {
   'dewayne-bailiff': [
@@ -191,4 +194,5 @@ export const orderOfBattles: HexData = {
     [d, d, 'One -- Garrison'],
     [c, c, 'Two -- Garrison'],
   ],
+  'tom-galbreath': [[c, 4, 'Sovereigns First -- Garrison']],
 };

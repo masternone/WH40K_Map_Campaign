@@ -102,6 +102,11 @@
   background-color: #660066;
 }
 
+.row .hexagon.tom-galbreath,
+.tom-galbreath {
+  background-color: #1434A4;
+}
+
 .row .hexagon.topography > .topography {
   content: '';
   display: none;
