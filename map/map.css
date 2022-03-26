@@ -107,6 +107,11 @@
   background-color: #1434a4;
 }
 
+.row .hexagon.jared-macnaughton,
+.jared-macnaughton {
+  background-color: #36454f;
+}
+
 .row .hexagon.topography > .topography {
   content: '';
   display: none;
