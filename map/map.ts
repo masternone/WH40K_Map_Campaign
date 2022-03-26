@@ -34,9 +34,6 @@ const applyClass = (list: Hex[], className: string): void => {
       `hexagon--${coordinates[0]}-${coordinates[1]}`
     );
     elements[0].classList.add(className);
-    if (coordinates.length === 3 && typeof coordinates[2] === 'string') {
-      elements[0].setAttribute('data-order-of-battle', coordinates[2]);
-    }
   });
 };
 const applyElement = (list: Hex[], className: string): void => {
@@ -46,6 +43,9 @@ const applyElement = (list: Hex[], className: string): void => {
     );
     const enhancement = document.createElement('div');
     enhancement.setAttribute('class', className);
+    if (coordinates.length === 3 && typeof coordinates[2] === 'string') {
+      enhancement.textContent = coordinates[2];
+    }
     elements[0].append(enhancement);
   });
 };
@@ -64,6 +64,7 @@ const applyOwnership = (): void => {
   names.forEach((name) => {
     applyClass(ownership[name], name);
     applyClass(orderOfBattles[name], 'order-of-battle');
+    applyElement(orderOfBattles[name], 'order-of-battle');
   });
 };
 const applyEnhancements = (): void => {
@@ -77,7 +78,7 @@ const applyEnhancements = (): void => {
 setTimeout(() => {
   build();
   applyTopography();
-  applyOwnership();
   applyEnhancements();
+  applyOwnership();
   analyseMap();
 }, 1000);

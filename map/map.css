@@ -37,15 +37,19 @@
     );
 }
 
-.row .hexagon.order-of-battle::after {
+.row .hexagon.order-of-battle .order-of-battle {
     content: attr(data-order-of-battle);
     position: absolute;
-    top: 65%;
+    top: 23%;
     left: 50%;
     transform: translateX(-50%);
     width: var(--s);
     margin-left: var(--m);
     font-size: 20px;
+}
+
+.row .hexagon.order-of-battle .order-of-battle + .order-of-battle {
+    top: 65%;
 }
 
 .row .hexagon.dewayne-bailiff,
