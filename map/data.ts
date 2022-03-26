@@ -27,6 +27,7 @@ export const topographyData: HexData = {
     [f, 8],
   ],
   forest: [
+    [4, 3],
     [4, 4],
     [8, 1],
     [8, 2],
@@ -45,6 +46,7 @@ export const topographyData: HexData = {
     [1, 1],
     [2, 2],
     [2, 3],
+    [4, 5],
     [7, 8],
     [7, 9],
     [7, a],
@@ -74,6 +76,7 @@ export const enhancements: HexData = {
     [1, f],
     [2, f],
     [3, 3],
+    [4, 4],
     [7, a],
     [9, 1],
     [9, f],
@@ -101,7 +104,9 @@ export const ownership: HexData = {
     [2, 3],
     [3, 2],
     [3, 3],
+    [4, 3],
     [4, 4],
+    [4, 5],
   ],
   'jayson-rittersdorf': [
     [8, 0],
@@ -154,9 +159,10 @@ export const orderOfBattles: HexData = {
     [e, 1, 'Sixth Plague Company p2 -- Move(1/2)'],
   ],
   'edward-grant': [
-    [3, 3, 'Tzican Infiltrators -- Garrison'],
-    [3, 2, 'The Changing March -- Move (1/3)'],
-    [4, 4, 'Never ending change -- Build Factory (0/2)'],
+    [4, 4, 'Tzican Infiltrators -- Garrison'],
+    [4, 3, 'The Changing March -- Garrison'],
+    [4, 4, 'Never Ending Change -- Garrison'],
+    [4, 5, 'The Variance Reversal -- Build Pavilion (1/3)'],
   ],
   'joel-david': [
     [a, f, 'Company One -- Garrison'],
