@@ -21,6 +21,7 @@ export const topographyData: HexData = {
     [3, 3],
     [3, e],
     [8, c],
+    [9, 0],
     [9, 1],
     [e, 1],
     [f, 8],
@@ -28,6 +29,7 @@ export const topographyData: HexData = {
   forest: [
     [4, 4],
     [8, 1],
+    [8, 2],
     [a, 1],
     [a, f],
     [c, d],
@@ -104,6 +106,8 @@ export const ownership: HexData = {
   'jayson-rittersdorf': [
     [8, 0],
     [8, 1],
+    [8, 2],
+    [9, 0],
     [9, 1],
     [a, 1],
   ],
@@ -164,8 +168,8 @@ export const orderOfBattles: HexData = {
     [3, f, 'War band Two -- move (1/3)'],
   ],
   'jayson-rittersdorf': [
-    [9, 1, 'Porphyria -- Garrison'],
-    [a, 1, 'Alkaptonuria -- Garrison'],
+    [9, 0, 'Porphyria -- Build Pavilion (1/3)'],
+    [8, 2, 'Alkaptonuria -- Garrison'],
   ],
   'rob-mountney': [
     [f, d, 'Two -- Garrison'],
