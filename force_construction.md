@@ -20,11 +20,11 @@ Every unit must have a **Crusade Card**. This is where victory and growth of the
 
 # Force Expansion
 
-* When you build a factory:
+- When you build a factory:
   1. Create a new **Order of Battle**
   2. You may move experienced crusade card into this new **Order of Battle**
      1. If you do so fill in your existing **Order of Battle** with new inexperienced units
-* When you create a command pavilion:
+- When you create a command pavilion:
   1. Your limit of HQ units is increased by 2
   2. You may drop units from any **Order of Battle**s to make room for these new units
 

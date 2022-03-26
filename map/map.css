@@ -1,218 +1,233 @@
 .container {
-    --s: 3in; /* size  */
-    --m: 4px; /* margin */
-    --f: calc(1.732 * var(--s) + 4 * var(--m) - 1px);
+  --s: 3in; /* size  */
+  --m: 4px; /* margin */
+  --f: calc(1.732 * var(--s) + 4 * var(--m) - 1px);
 
-    display: flex;
-    flex-wrap: wrap;
-    width: calc(16.5 * var(--s) + 2 * 16.5 * var(--m));
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(16.5 * var(--s) + 2 * 16.5 * var(--m));
 }
 
 .row {
-    font-size: 0; /*disable white space between inline block element */
+  font-size: 0; /*disable white space between inline block element */
 }
 
 .row .hexagon {
-    width: var(--s);
-    margin: var(--m);
-    height: calc(var(--s) * 1.1547);
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1in;
-    background: rgba(0, 0, 0, 0.05);
-    clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
-    margin-bottom: calc(var(--m) - var(--s) * 0.2885);
+  width: var(--s);
+  margin: var(--m);
+  height: calc(var(--s) * 1.1547);
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1in;
+  background: rgba(0, 0, 0, 0.05);
+  clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+  margin-bottom: calc(var(--m) - var(--s) * 0.2885);
 }
 
 .row:nth-child(even)::before {
-    content: '';
-    width: calc(var(--s) / 2 + var(--m));
-    float: left;
-    height: 120%;
-    shape-outside: repeating-linear-gradient(
-            #000 0 calc(var(--f) - 2px),
-            #000 0 var(--f)
-    );
+  content: '';
+  width: calc(var(--s) / 2 + var(--m));
+  float: left;
+  height: 120%;
+  shape-outside: repeating-linear-gradient(
+    #000 0 calc(var(--f) - 2px),
+    #000 0 var(--f)
+  );
 }
 
 .row .hexagon.order-of-battle .order-of-battle {
-    content: attr(data-order-of-battle);
-    position: absolute;
-    top: 23%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: var(--s);
-    margin-left: var(--m);
-    font-size: 20px;
+  content: attr(data-order-of-battle);
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: var(--s);
+  margin-left: var(--m);
+  font-size: 20px;
 }
 
 .row .hexagon.order-of-battle .order-of-battle + .order-of-battle {
-    top: 65%;
+  top: 65%;
 }
 
 .row .hexagon.dewayne-bailiff,
 .dewayne-bailiff {
-    background-color: #bbbb7f;
+  background-color: #bbbb7f;
 }
 
 .row .hexagon.edward-grant,
 .edward-grant {
-    background-color: #18abcc;
+  background-color: #18abcc;
 }
 
 .row .hexagon.joel-david,
 .joel-david {
-    background-color: #005221;
+  background-color: #005221;
 }
 
 .row .hexagon.jayson-rittersdorf,
 .jayson-rittersdorf {
-    background-color: #848a66;
+  background-color: #848a66;
 }
 
 .row .hexagon.rob-mountney,
 .rob-mountney {
-    background-color: #e3dac9;
+  background-color: #e3dac9;
 }
 
 .row .hexagon.jon-arford,
 .jon-arford {
-    background-color: #a9203e;
+  background-color: #a9203e;
 }
 
 .row .hexagon.jaleh-noah,
 .jaleh-noah {
-    background-color: #4166f5;
+  background-color: #4166f5;
 }
 
 .row .hexagon.nathaniel-palmer,
 .nathaniel-palmer {
-    background-color: #F2E34C;
+  background-color: #f2e34c;
 }
 
 .row .hexagon.shad-feenstra,
 .shad-feenstra {
-    background-color: #ee3823;
+  background-color: #ee3823;
 }
 
 .row .hexagon.victor-romine,
 .victor-romine {
-    background-color: #660066;
+  background-color: #660066;
 }
 
-.row .hexagon.topography > .topography{
-    content: '';
-    display: none;
-    background-image: url(/background/overland_color.jpeg);
-    background-repeat: no-repeat;
-    background-size: 1000px 300px;
-    position: absolute;
-    width: 87px;
-    height: 75px;
-    top: 3%;
-    left: 50%;
-    transform: translateX(-50%);
+.row .hexagon.topography > .topography {
+  content: '';
+  display: none;
+  background-image: url(/background/overland_color.jpeg);
+  background-repeat: no-repeat;
+  background-size: 1000px 300px;
+  position: absolute;
+  width: 87px;
+  height: 75px;
+  top: 3%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .row .hexagon.enhancements > .enhancements {
-    background-image: url(/background/image_set_2.gif);
-    background-repeat: no-repeat;
-    background-size: 1800px 1819px;
-    position: absolute;
-    width: 72px;
-    height: 64px;
+  background-image: url(/background/image_set_2.gif);
+  background-repeat: no-repeat;
+  background-size: 1800px 1819px;
+  position: absolute;
+  width: 72px;
+  height: 64px;
 }
 
 /*top*/
 .row .hexagon.topography .topography {
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /*left*/
 .row .hexagon.topography .topography + .topography,
 .row .hexagon.topography .topography + .enhancements {
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
 
 /*bottom*/
 .row .hexagon.topography .topography + .topography + .topography,
 .row .hexagon.topography .topography + .topography + .enhancements,
 .row .hexagon.topography .topography + .enhancements + .enhancements {
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -115%);
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -115%);
 }
 
 /*right*/
 .row .hexagon.topography .topography + .topography + .topography + .topography,
-.row .hexagon.topography .topography + .topography + .topography + .enhancements,
-.row .hexagon.topography .topography + .topography + .enhancements + .enhancements,
-.row .hexagon.topography .topography + .enhancements + .enhancements + .enhancements {
-    top: 50%;
-    left: 100%;
-    transform: translate(-100%, -50%);
+.row
+  .hexagon.topography
+  .topography
+  + .topography
+  + .topography
+  + .enhancements,
+.row
+  .hexagon.topography
+  .topography
+  + .topography
+  + .enhancements
+  + .enhancements,
+.row
+  .hexagon.topography
+  .topography
+  + .enhancements
+  + .enhancements
+  + .enhancements {
+  top: 50%;
+  left: 100%;
+  transform: translate(-100%, -50%);
 }
 
 .row .hexagon.topography > .volcano {
-    display: block;
-    background-position: 11.5% 93%;
+  display: block;
+  background-position: 11.5% 93%;
 }
 
 .row .hexagon.topography > .mountain {
-    display: block;
-    background-position: 33% 49%;
+  display: block;
+  background-position: 33% 49%;
 }
 
 .row .hexagon.topography > .hill {
-    display: block;
-    background-position: 0.5% 49%;
+  display: block;
+  background-position: 0.5% 49%;
 }
 
 .row .hexagon.topography > .forest {
-    display: block;
-    background-position: 87% 4%;
+  display: block;
+  background-position: 87% 4%;
 }
 
 .row .hexagon.topography > .plain {
-    display: block;
-    background-position: 98% 4%;
+  display: block;
+  background-position: 98% 4%;
 }
 
 .row .hexagon.topography > .desert {
-    display: block;
-    background-position: 76.5% 4%;
+  display: block;
+  background-position: 76.5% 4%;
 }
 
 .row .hexagon.topography > .ocean {
-    display: block;
-    background-position: 22% 93%;
+  display: block;
+  background-position: 22% 93%;
 }
 
 .row .hexagon.enhancements > .cultivation {
-    background-position: 82.2% 96.4%;
+  background-position: 82.2% 96.4%;
 }
 .row .hexagon.enhancements > .command-pavilion {
-    background-position: 82.2% 75.1%;
+  background-position: 82.2% 75.1%;
 }
 .row .hexagon.enhancements > .factory {
-    background-position: 58% 61%;
+  background-position: 58% 61%;
 }
 
 .row .hexagon.enhancements > .fortification {
-    background-position: 58% 68.1%;
+  background-position: 58% 68.1%;
 }
 
 table {
-    font-size: 1in;
-    margin-top: 1in;
+  font-size: 1in;
+  margin-top: 1in;
 }
 
 th,
 td {
-    padding: 0.5in 1in;
+  padding: 0.5in 1in;
 }

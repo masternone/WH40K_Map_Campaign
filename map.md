@@ -20,7 +20,7 @@ map. Each hex will have a series of benefits.
 # Enhancements
 
 | Type             | Construction Time | Cost | Benefit                                                         |
-| ---------------- | ----------------: |-----:| --------------------------------------------------------------- |
+| ---------------- | ----------------: | ---: | --------------------------------------------------------------- |
 | Fortification    |                 1 |    1 | Increase location defence by 1 to a max of 4                    |
 | Cultivation      |                 1 |   -1 | Increase location resources by 1 to a max of 4                  |
 | Factory          |                 2 |    2 | Allows for the creation of an additional **Order of Battle**    |
@@ -52,16 +52,16 @@ continue up the table from the highest and looping around if necessary.
 For example:
 
 - If the tile has no explored adjacent locations the roll would be
-    1. Mountain
-    2. Hill
-    3. Forest
-    4. Plain
-    5. Desert
-    6. Ocean
+  1. Mountain
+  2. Hill
+  3. Forest
+  4. Plain
+  5. Desert
+  6. Ocean
 - If there are two mountain and one forest the roll would be
-    1. Mountain
-    2. Mountain
-    3. Forest
-    4. Plain
-    5. Desert
-    6. Ocean
+  1. Mountain
+  2. Mountain
+  3. Forest
+  4. Plain
+  5. Desert
+  6. Ocean
