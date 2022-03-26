@@ -38,4 +38,7 @@ npm run build
 ```
 
 Watch changes
-???
+
+```shell
+npm run build:watch
+```
