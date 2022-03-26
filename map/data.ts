@@ -58,7 +58,10 @@ export const topographyData: HexData = {
 };
 
 export const enhancements: HexData = {
-  cultivation: [[9, 1]],
+  cultivation: [
+    [9, 1],
+    [e, 1],
+  ],
   'command-pavilion': [
     [2, 2],
     [7, b],
@@ -84,6 +87,7 @@ export const enhancements: HexData = {
 
 export const ownership: HexData = {
   'dewayne-bailiff': [
+    [e, 0],
     [e, 1],
     [f, 0],
   ],
@@ -140,7 +144,10 @@ export const ownership: HexData = {
   ],
 };
 export const orderOfBattles: HexData = {
-  'dewayne-bailiff': [[e, 1, 'Sixth Plague Company -- Garrison']],
+  'dewayne-bailiff': [
+    [e, 0, 'Sixth Plague Company -- Garrison'],
+    [e, 1, 'Sixth Plague Company p2 -- Move(1/2)'],
+  ],
   'edward-grant': [
     [3, 3, 'Tzican Infiltrators -- Garrison'],
     [3, 2, 'The Changing March -- Move (1/3)'],
