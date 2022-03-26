@@ -12,6 +12,7 @@ export const topographyData: HexData = {
     [9, f],
     [3, 2],
     [3, f],
+    [e, 0],
   ],
   hill: [
     [1, 2],
