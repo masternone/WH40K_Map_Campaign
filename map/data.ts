@@ -18,9 +18,7 @@ export const topographyData: HexData = {
   hill: [
     [1, 2],
     [1, f],
-    [2, f],
     [3, 3],
-    [3, e],
     [8, c],
     [9, 0],
     [9, 1],
@@ -28,8 +26,11 @@ export const topographyData: HexData = {
     [f, 8],
   ],
   forest: [
+    [2, f],
+    [3, e],
     [4, 3],
     [4, 4],
+    [5, f],
     [8, 1],
     [8, 2],
     [a, 1],
@@ -49,6 +50,7 @@ export const topographyData: HexData = {
     [2, 3],
     [2, 8],
     [4, 5],
+    [4, f],
     [7, 8],
     [7, 9],
     [7, a],
@@ -129,6 +131,8 @@ export const ownership: HexData = {
     [2, f],
     [3, e],
     [3, f],
+    [4, f],
+    [5, f],
   ],
   'rob-mountney': [
     [e, e],
@@ -175,9 +179,9 @@ export const orderOfBattles: HexData = {
     [9, f, 'Company Two -- Move (2/3)'],
   ],
   'jaleh-noah': [
-    [2, f, 'War band One -- Garrison'],
-    [3, e, 'War Band Three -- Garrison'],
-    [3, f, 'War band Two -- move (1/3)'],
+    [4, f, 'War band One -- Garrison'],
+    [5, f, 'War Band Three -- Garrison'],
+    [5, f, 'War band Two -- Garrison'],
   ],
   'jayson-rittersdorf': [
     [9, 0, 'Porphyria -- Build Pavilion (1/3)'],
