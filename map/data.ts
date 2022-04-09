@@ -33,6 +33,7 @@ export const topographyData: HexData = {
     [4, 3],
     [4, 4],
     [5, f],
+    [7, 1],
     [8, 1],
     [8, 2],
     [a, 1],
@@ -70,6 +71,7 @@ export const topographyData: HexData = {
 export const enhancements: HexData = {
   cultivation: [
     [2, 8],
+    [8, 2],
     [9, 1],
     [c, 4],
     [e, 1],
@@ -77,6 +79,7 @@ export const enhancements: HexData = {
   'command-pavilion': [
     [2, 2],
     [7, b],
+    [9, 0],
   ],
   factory: [
     [1, 2],
@@ -85,6 +88,8 @@ export const enhancements: HexData = {
     [3, 3],
     [4, 4],
     [7, a],
+    [8, 2],
+    [8, 2],
     [9, 1],
     [9, f],
     [a, f],
@@ -117,6 +122,7 @@ export const ownership: HexData = {
     [4, 5],
   ],
   'jayson-rittersdorf': [
+    [7, 1],
     [8, 0],
     [8, 1],
     [8, 2],
@@ -188,8 +194,10 @@ export const orderOfBattles: HexData = {
     [5, f, 'War band Two -- Garrison'],
   ],
   'jayson-rittersdorf': [
-    [9, 0, 'Porphyria -- Build Pavilion (1/3)'],
+    [9, 0, 'Porphyria -- Garrison'],
     [8, 2, 'Alkaptonuria -- Garrison'],
+    [8, 2, 'Yunis Varon -- Garrison'],
+    [7, 1, 'Wandering Spleen -- Garrison'],
   ],
   'rob-mountney': [
     [f, d, 'Two -- Garrison'],
