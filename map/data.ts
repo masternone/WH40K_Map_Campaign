@@ -22,6 +22,8 @@ export const topographyData: HexData = {
     [8, c],
     [9, 0],
     [9, 1],
+    [9, e],
+    [a, f],
     [e, 1],
     [f, 8],
   ],
@@ -34,7 +36,6 @@ export const topographyData: HexData = {
     [8, 1],
     [8, 2],
     [a, 1],
-    [a, f],
     [c, d],
     [c, e],
     [d, c],
@@ -86,6 +87,7 @@ export const enhancements: HexData = {
     [7, a],
     [9, 1],
     [9, f],
+    [a, f],
     [d, d],
     [e, 1],
     [f, e],
@@ -123,6 +125,7 @@ export const ownership: HexData = {
     [a, 1],
   ],
   'joel-david': [
+    [9, e],
     [9, f],
     [a, f],
   ],
@@ -176,7 +179,8 @@ export const orderOfBattles: HexData = {
   ],
   'joel-david': [
     [a, f, 'Company One -- Garrison'],
-    [9, f, 'Company Two -- Move (2/3)'],
+    [9, e, 'Company Two -- Garrison'],
+    [a, f, 'Company Three -- Garrison'],
   ],
   'jaleh-noah': [
     [4, f, 'War band One -- Garrison'],
