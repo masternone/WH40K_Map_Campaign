@@ -15,6 +15,7 @@ export const topographyData: HexData = {
     [9, f],
     [a, 0],
     [c, 4],
+    [d, b],
     [e, 0],
   ],
   hill: [
@@ -28,6 +29,7 @@ export const topographyData: HexData = {
     [9, 1],
     [9, e],
     [a, f],
+    [d, 4],
     [e, 1],
     [f, 8],
   ],
@@ -48,6 +50,7 @@ export const topographyData: HexData = {
     [d, c],
     [d, d],
     [d, e],
+    [e, d],
     [e, f],
     [f, d],
     [f, e],
@@ -113,11 +116,14 @@ export const enhancements: HexData = {
     [a, f],
     [d, d],
     [e, 1],
+    [e, d],
+    [e, e],
     [f, e],
   ],
   fortification: [
     [2, f],
     [a, f],
+    [e, e],
     [e, f],
   ],
 };
@@ -176,10 +182,12 @@ export const ownership: HexData = {
     [6, f],
   ],
   'rob-mountney': [
+    [e, d],
     [e, e],
     [e, f],
     [f, d],
     [f, e],
+    [f, f],
   ],
   'jon-arford': [
     [7, 7],
@@ -197,11 +205,15 @@ export const ownership: HexData = {
   ],
   'victor-romine': [
     [c, c],
+    [d, b],
     [d, c],
     [d, d],
     [d, e],
   ],
-  'tom-galbreath': [[c, 4]],
+  'tom-galbreath': [
+    [c, 4],
+    [d, 4],
+  ],
   'jared-macnaughton': [[2, 8]],
 };
 export const orderOfBattles: HexData = {
@@ -235,8 +247,9 @@ export const orderOfBattles: HexData = {
     [7, 2, 'Dracunculosis -- Garrison'],
   ],
   'rob-mountney': [
-    [f, d, 'Two -- Garrison'],
-    [f, e, 'One -- Move (0/1)'],
+    [e, e, 'Two -- Garrison'],
+    [f, e, 'One -- Garrison'],
+    [e, d, 'Three -- Garrison'],
   ],
   'jon-arford': [
     [8, c, 'Troupe One -- Garrison'],
@@ -245,9 +258,9 @@ export const orderOfBattles: HexData = {
   'nathaniel-palmer': [[f, 8, 'Carde One - Garrison']],
   'shad-feenstra': [[c, d, '-- Garrison']],
   'victor-romine': [
-    [d, d, 'One -- Garrison'],
-    [c, c, 'Two -- Garrison'],
+    [d, d, 'One -- Build Pavilion (2/3)'],
+    [d, b, 'Two -- Garrison'],
   ],
-  'tom-galbreath': [[c, 4, 'Sovereigns First -- Garrison']],
+  'tom-galbreath': [[d, 4, 'Sovereigns First -- Garrison']],
   'jared-macnaughton': [[2, 8, "Timm Timm's Friends -- Garrison"]],
 };
