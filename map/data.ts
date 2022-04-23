@@ -82,7 +82,7 @@ export const topographyData: HexData = {
     [7, 7],
     [8, 0],
   ],
-  ocean: [],
+  ocean: [[2, 9]],
 };
 
 export const enhancements: HexData = {
@@ -102,6 +102,7 @@ export const enhancements: HexData = {
   factory: [
     [1, 2],
     [1, f],
+    [2, 8],
     [2, f],
     [3, 3],
     [4, 4],
@@ -214,7 +215,10 @@ export const ownership: HexData = {
     [c, 4],
     [d, 4],
   ],
-  'jared-macnaughton': [[2, 8]],
+  'jared-macnaughton': [
+    [2, 8],
+    [2, 9],
+  ],
 };
 export const orderOfBattles: HexData = {
   'dewayne-bailiff': [
@@ -262,5 +266,8 @@ export const orderOfBattles: HexData = {
     [d, b, 'Two -- Garrison'],
   ],
   'tom-galbreath': [[d, 4, 'Sovereigns First -- Garrison']],
-  'jared-macnaughton': [[2, 8, "Timm Timm's Friends -- Garrison"]],
+  'jared-macnaughton': [
+    [2, 8, "Timm Timm's Friends -- Garrison"],
+    [2, 9, 'Two -- Build Pavilion (1/3)'],
+  ],
 };
