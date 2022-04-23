@@ -9,9 +9,10 @@ export const topographyData: HexData = {
     [f, f],
   ],
   mountain: [
-    [9, f],
     [3, 2],
     [3, f],
+    [8, f],
+    [9, f],
     [c, 4],
     [e, 0],
   ],
@@ -145,6 +146,7 @@ export const ownership: HexData = {
     [a, 1],
   ],
   'joel-david': [
+    [8, f],
     [9, e],
     [9, f],
     [a, f],
@@ -201,9 +203,9 @@ export const orderOfBattles: HexData = {
     [4, 5, 'The Variance Reversal -- Garrison'],
   ],
   'joel-david': [
-    [a, f, 'Company One -- Garrison'],
-    [9, e, 'Company Two -- Garrison'],
-    [a, f, 'Company Three -- Garrison'],
+    [9, e, 'Company One -- Garrison'],
+    [8, f, 'Company Two -- Garrison'],
+    [9, e, 'Company Three -- Garrison'],
   ],
   'jaleh-noah': [
     [6, e, 'War band One -- Garrison'],
