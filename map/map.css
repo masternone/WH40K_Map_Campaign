@@ -1,11 +1,13 @@
 .container {
+    --c: 8; /* count */
+    --fudge: .5; /* fudge factor to account for offset nature of the interlaced rows */
     --s: 3in; /* size  */
     --m: 4px; /* margin */
     --f: calc(1.732 * var(--s) + 4 * var(--m) - 1px);
 
     display: flex;
     flex-wrap: wrap;
-    width: calc(16.5 * var(--s) + 2 * 16.5 * var(--m));
+    width: calc((var(--c) + var(--fudge)) * var(--s) + 2 * (var(--c) + var(--fudge)) * var(--m));
 }
 
 .row {
@@ -51,11 +53,6 @@
     top: 65%;
 }
 
-.row .hexagon.dewayne-bailiff,
-.dewayne-bailiff {
-    background-color: #bbbb7f;
-}
-
 .row .hexagon.edward-grant,
 .edward-grant {
     background-color: #18abcc;
@@ -71,11 +68,6 @@
     background-color: #848a66;
 }
 
-.row .hexagon.rob-mountney,
-.rob-mountney {
-    background-color: #e3dac9;
-}
-
 .row .hexagon.jon-arford,
 .jon-arford {
     background-color: #a9203e;
@@ -84,11 +76,6 @@
 .row .hexagon.jaleh-noah,
 .jaleh-noah {
     background-color: #4166f5;
-}
-
-.row .hexagon.nathaniel-palmer,
-.nathaniel-palmer {
-    background-color: #f2e34c;
 }
 
 .row .hexagon.shad-feenstra,
@@ -114,7 +101,7 @@
 .row .hexagon.topography > .topography {
     content: '';
     display: none;
-    background-image: url(/background/overland_color.jpeg);
+    background-image: url(/map/background/overland_color.jpeg);
     background-repeat: no-repeat;
     background-size: 1000px 300px;
     position: absolute;
@@ -126,7 +113,7 @@
 }
 
 .row .hexagon.enhancements > .enhancements {
-    background-image: url(/background/image_set_2.gif);
+    background-image: url(/map/background/image_set_2.gif);
     background-repeat: no-repeat;
     background-size: 1800px 1819px;
     position: absolute;

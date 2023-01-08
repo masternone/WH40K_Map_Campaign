@@ -9,7 +9,7 @@ import { analyseMap } from './analyseMap';
 import { TYPOGRAPHY_ARRAY } from './constants';
 
 const build = (): void => {
-  const size = 16;
+  const size = 8;
   const container = document.getElementsByClassName('container');
   for (let i = 0; i < container.length; i++) {
     for (let j = 0; j < size; j++) {
