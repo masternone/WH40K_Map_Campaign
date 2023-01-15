@@ -90,12 +90,17 @@
 
 .row .hexagon.tom-galbreath,
 .tom-galbreath {
-    background-color: #1434a4;
+    background-color: #367588;
 }
 
 .row .hexagon.jared-macnaughton,
 .jared-macnaughton {
     background-color: #36454f;
+}
+
+.row .hexagon.steve-herrick,
+.steve-herrick {
+    background-color: #650a09;
 }
 
 .row .hexagon.topography > .topography {
