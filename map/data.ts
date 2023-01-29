@@ -10,6 +10,7 @@ export const topographyData: HexData = {
   ],
   mountain: [
     [2, 4],
+    [4, 6],
     [7, 1],
   ],
   hill: [
@@ -26,7 +27,7 @@ export const topographyData: HexData = {
 };
 
 export const enhancements: HexData = {
-  cultivation: [],
+  cultivation: [[1, 2]],
   'command-pavilion': [],
   factory: [
     [2, 4],
@@ -46,7 +47,10 @@ export const ownership: HexData = {
     [3, 1],
   ],
   'victor-romine': [[2, 4]],
-  'tom-galbreath': [[4, 7]],
+  'tom-galbreath': [
+    [4, 6],
+    [4, 7],
+  ],
   'jared-macnaughton': [
     [6, 6],
     [6, 7],
@@ -61,16 +65,16 @@ export const orderOfBattles: HexData = {
     [1, 2, 'Tzican Infiltrators -- Build - Fortification (1/2)'],
   ],
   'jayson-rittersdorf': [
-    [7, 1, 'Common Cold -- Idle'],
-    [7, 1, 'Bird Flu -- Idle'],
+    [7, 1, 'Common Cold -- Move (2/3)'],
+    [7, 1, 'Bird Flu -- Move (2/3)'],
   ],
   'shad-feenstra': [[3, 1, '-- Idle']],
   'victor-romine': [
-    [2, 4, 'Green -- Idle'],
-    [2, 4, 'Yellow -- Idle'],
+    [2, 4, 'Green -- Move (2/3)'],
+    [2, 4, 'Yellow -- Move (2/3)'],
   ],
   'tom-galbreath': [
-    [4, 7, "Sindris' Scouts from the Department of Acquisitions -- Move (1/3)"],
+    [4, 6, "Sindris' Scouts from the Department of Acquisitions -- Move (1/3)"],
   ],
   'jared-macnaughton': [[6, 7, 'Cold -- Idle']],
   'steve-herrick': [[1, 1, 'Storm -- Idle']],
