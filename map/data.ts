@@ -12,10 +12,15 @@ export const topographyData: HexData = {
     [2, 4],
     [3, 4],
     [4, 6],
+    [6, 1],
     [7, 1],
+    [7, 6],
   ],
   hill: [
+    [1, 0],
+    [2, 1],
     [3, 1],
+    [4, 5],
     [6, 7],
   ],
   forest: [
@@ -24,21 +29,28 @@ export const topographyData: HexData = {
     [7, 2],
   ],
   plain: [
+    [0, 3],
     [1, 2],
     [2, 2],
   ],
-  desert: [[1, 1]],
+  desert: [
+    [0, 1],
+    [1, 1],
+    [6, 2],
+  ],
   ocean: [[0, 2]],
 };
 
 export const enhancements: HexData = {
   cultivation: [
+    [0, 3],
     [1, 2],
     [2, 5],
   ],
-  'command-pavilion': [],
+  'command-pavilion': [[3, 4]],
   factory: [
     [1, 1],
+    [1, 2],
     [2, 4],
     [6, 7],
     [6, 7],
@@ -51,8 +63,13 @@ export const enhancements: HexData = {
 };
 
 export const ownership: HexData = {
-  'edward-grant': [[1, 2]],
+  'edward-grant': [
+    [0, 3],
+    [1, 2],
+  ],
   'jayson-rittersdorf': [
+    [6, 1],
+    [6, 2],
     [7, 0],
     [7, 1],
     [7, 2],
@@ -67,43 +84,48 @@ export const ownership: HexData = {
     [3, 4],
   ],
   'tom-galbreath': [
+    [4, 5],
     [4, 6],
     [4, 7],
   ],
   'jared-macnaughton': [
     [6, 6],
     [6, 7],
+    [7, 6],
     [7, 7],
   ],
   'steve-herrick': [
+    [0, 1],
     [0, 2],
     [1, 0],
     [1, 1],
+    [2, 1],
   ],
 };
 export const orderOfBattles: HexData = {
   'edward-grant': [
-    [1, 2, 'Tzican Infiltrators -- Build - Fortification (1/2)'],
+    [1, 2, 'Tzican Infiltrators -- Build - Command Pavilion (2/3)'],
+    [0, 3, 'Changers -- Idle'],
   ],
   'jayson-rittersdorf': [
-    [7, 1, 'Common Cold -- Move (2/3)'],
-    [7, 0, 'Bird Flu -- Move (1/3)'],
+    [6, 2, 'Common Cold -- Idle'],
+    [6, 1, 'Bird Flu -- Idle'],
   ],
   'shad-feenstra': [[3, 1, '-- Idle']],
   'victor-romine': [
-    [3, 4, 'Green -- Command Pavilion (1/3)'],
+    [3, 4, 'Green -- Idle'],
     [2, 5, 'Yellow -- Idle'],
   ],
   'tom-galbreath': [
-    [4, 6, "Sindris' Scouts from the Department of Acquisitions -- Move (1/3)"],
+    [4, 5, "Sindris' Scouts from the Department of Acquisitions -- Idle"],
   ],
   'jared-macnaughton': [
-    [6, 7, 'Cold -- Idle'],
+    [6, 6, 'Cold -- Idle'],
     [6, 7, 'Warm -- Idle'],
-    [7, 7, 'Hot -- Idle'],
+    [7, 6, 'Hot -- Idle'],
   ],
   'steve-herrick': [
-    [1, 1, 'Storm -- Idle'],
-    [1, 1, 'TBD--Idle'],
+    [2, 1, 'Storm -- Idle'],
+    [1, 1, 'Suite --Idle'],
   ],
 };
