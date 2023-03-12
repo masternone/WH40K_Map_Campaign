@@ -86,5 +86,5 @@ export const FACTORY: Enhancement = {
 };
 export const COMMAND_PAVILION: Enhancement = {
   type: 'command-pavilion',
-  cost: 3,
+  cost: 2,
 };
